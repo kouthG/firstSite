@@ -1,13 +1,16 @@
-div  {
-    border: 3px green solid;
+/*div  {
+    border: 1px green solid;
 }
 .body {
     display: flex;
     flex-direction: row;   
-}
+}*/
 header {
     display: flex;
-    border: 3px red solid;    
+    border: 2px red solid;    
+}
+#bande {
+    height: 50px;
 }
 #menu {
     list-style: none;
@@ -16,9 +19,36 @@ header {
 }
 #images {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 #pple {
     display: flex;  
     flex-direction: row; 
+    justify-content: space-around;
+    
+}
+#section {
+    display: flex;
+    flex-direction: column;
+    
+    min-width: 25%;    
+}
+.section {   
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+    background-color: aqua;
+}
+.section p {
+    text-align: center;
+    font-weight: bolder;
+}
+.article {    
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+}
+#paragr {
+    text-align: justify;
+    padding: 10px;
 }
