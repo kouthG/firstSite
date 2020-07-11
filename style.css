@@ -112,3 +112,20 @@ h2:hover {
 .otherP {
     clear: left;
 }
+
+@media all and (max-width: 1024px) {
+    #menu {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    #pple { 
+    flex-direction: column;
+    }
+    .inheader {
+        visibility: hidden;
+    }
+    #images {
+        overflow: hidden;
+    }
+}
